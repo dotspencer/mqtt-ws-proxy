@@ -1,6 +1,6 @@
 # mqtt-ws-proxy
 
-A simple mqtt to ws proxy. Connects to a mqtt server, acts as a ws server, and forwards all mqtt messages to all connected ws clients.
+A simple mqtt to ws proxy. Connects to a mqtt server, acts as a ws server itself, and forwards received mqtt messages to all connected ws clients.
 
 ### Setup
 
