@@ -70,7 +70,7 @@ client.on('message', (topic, messageBuffer) => {
   const message = messageBuffer.toString();
   console.log(topic, message);
 
-  latestTopics[topic] = message;
+  // latestTopics[topic] = message;
 
   wss.clients.forEach(function each(client) {
     if (client.readyState === WebSocket.OPEN) {
