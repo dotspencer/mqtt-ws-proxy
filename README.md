@@ -7,8 +7,10 @@ A simple mqtt to ws proxy. Connects to a mqtt server, acts as a ws server itself
 Create a `.env` file with the following info. Add ip address of the mqtt server on your network.
 
 ```
-MQTT_SERVER="mqtt://192.168.X.X"
-WS_PORT=7070
+MQTT_SERVER="mqtt://192.168.xx.xx"
+PROXY_SERVER="ws://192.168.xx.xx"
+WS_PORT="7070"
+EXPRESS_PORT="7171"
 ```
 
 Run `yarn` to install dependencies.

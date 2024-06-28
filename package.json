@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "node src/server.js",
-    "test-client": "node src/client.js"
+    "test-client": "node src/test-client.js"
   },
   "keywords": [],
   "author": "",

@@ -24,13 +24,6 @@ wss.on('error', (error) => {
 });
 
 /**
- * Returns a list of approved websocket clients
- */
-function getClients() {
-  return Array.from(wss.clients);
-}
-
-/**
  * Handles new websocket connections
  */
 function handleConnection(ws) {
